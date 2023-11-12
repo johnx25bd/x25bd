@@ -1,7 +1,7 @@
 {
-  "title": "Blog by John Doe",
-  "url": "https://lumen.alxshelepenok.com",
-  "subtitle": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  "title": "John X",
+  "url": "https://x25bd.com",
+  "subtitle": "Helping build a brighter future",
   "copyright": "© All rights reserved.",
   "googleAnalyticsId": "UA-73379983-2",
   "disqusShortname": "",
@@ -9,32 +9,32 @@
   "pathPrefix": "/",
   "menu": [
     {
-      "label": "Articles",
+      "label": "Observations",
       "path": "/"
     },
     {
-      "label": "About me",
+      "label": "About",
       "path": "/pages/about"
     },
     {
-      "label": "Contact me",
-      "path": "/pages/contacts"
+      "label": "Contact",
+      "path": "/pages/contact"
     }
   ],
   "author": {
-    "name": "John Doe",
+    "name": "John X",
     "photo": "/photo.jpg",
-    "bio": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "bio": "Helping build a brighter future",
     "contacts": {
       "rss": "",
-      "email": "",
-      "github": "#",
-      "facebook": "#",
-      "telegram": "#",
-      "twitter": "#",
-      "linkedin": "#",
-      "instagram": "#",
-      "mastodon": "#",
+      "email": "john.iv@x25bd.com",
+      "github": "johnx25bd",
+      "facebook": "",
+      "telegram": "",
+      "twitter": "johnx25bd",
+      "linkedin": "johnx25bd",
+      "instagram": "",
+      "mastodon": "",
       "line": "",
       "weibo": "",
       "gitlab": "",
