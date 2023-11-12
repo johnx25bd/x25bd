@@ -23,6 +23,7 @@ export default {
         path: path.resolve("content"),
       },
     },
+    "gatsby-plugin-netlify",
     {
       resolve: "gatsby-plugin-feed",
       options: {
