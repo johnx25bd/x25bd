@@ -7,7 +7,6 @@ slug: "/posts/things-that-feel-true"
 # category: "Typography"
 tags:
 description: "Introducing a place to post unfinished observations."
-socialImage: "./media/aizawa.jpg"
 ---
 
 
