@@ -16,13 +16,22 @@ const Menu: React.FC<Props> = ({ menu }: Props) => (
     <ul className={styles.list}>
       {menu.map((item) => (
         <li className={styles.item} key={item.path}>
-          <Link
-            to={item.path}
-            className={styles.link}
-            activeClassName={styles.active}
-          >
-            {item.label}
-          </Link>
+          {
+            item.path.startsWith('http') ? (
+              <a href={item.path} 
+                target="_blank" 
+                className={styles.link}
+                rel="noopener noreferrer">
+                {item.label}
+              </a>
+            ) : (
+              <Link 
+                to={item.path} 
+                className={styles.link}
+                activeClassName={styles.active}
+                >{item.label}</Link>
+            )
+          }
         </li>
       ))}
     </ul>
