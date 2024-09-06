@@ -9,12 +9,12 @@
   "pathPrefix": "/",
   "menu": [
     {
-      "label": "Observations",
+      "label": "About",
       "path": "/"
     },
     {
-      "label": "About",
-      "path": "/pages/about"
+      "label": "Observations",
+      "path": "/observations"
     },
     {
       "label": "Consulting",
