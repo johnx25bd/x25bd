@@ -17,7 +17,7 @@ const getPaginationPath = (basePath: string, page: number): string =>
   [basePath === "/observations" ? "" : basePath, "page", page].join("/");
 
 const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
-  const { createPage } = actions;
+  const { createPage, createRedirect } = actions;
 
   createPage({
     path: constants.routes.notFoundRoute,
@@ -37,11 +37,17 @@ const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
     context: {},
   });
 
+  createRedirect({
+    fromPath: "/consulting",
+    toPath: "https://x25bd.notion.site/Service-Offering-105a6d7db079433ab9a51829663a1257",
+    isPermanent: true,
+    redirectInBrowser: true,
+  });
+
   const pages = await queries.pagesQuery(graphql);
 
   pages.forEach((edge) => {
     const { node } = edge;
-    console.log("node", node);
 
     if (node?.frontmatter?.template === "page" && node?.fields?.slug) {
       const pagePath = node.frontmatter.slug === "/" ? "/" : node.fields.slug;
