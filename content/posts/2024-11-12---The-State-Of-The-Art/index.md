@@ -12,7 +12,7 @@ description: "Trust and integrity in an unknowable world."
 
 I find I often hold out on saying things, sharing my perspective and ideas, because I don’t feel like I have a good handle on the breadth and depth of the “cutting edge”. I feel that to credibly contribute to the conversation, I need to have done my homework. As evidence — I haven’t posted in almost a year, and rarely share what I’m thinking in any public forum.
 
-I have well-founded reasons for staying mute, but my growing belief is that silence causes more harm to myself than good, and undermines whatever small contribution I might be able to make to progress. Sense-making accelerates when its done in the open.
+I have well-founded reasons for staying mute, but my growing belief is that silence causes more harm to myself than good, and undermines whatever small contribution I might be able to make to progress. Sense-making accelerates when it's done in the open.
 
 ---
 
