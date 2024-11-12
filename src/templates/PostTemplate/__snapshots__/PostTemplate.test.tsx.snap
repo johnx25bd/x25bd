@@ -6,7 +6,7 @@ exports[`PostTemplate renders correctly 1`] = `
     <div>
       <a
         className=""
-        href="/"
+        href="/observations"
       >
         All Articles
       </a>

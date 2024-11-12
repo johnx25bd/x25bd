@@ -53,6 +53,7 @@
     "@sentry/tracing": "^7.68.0",
     "abab": "^2.0.6",
     "classnames": "^2.3.2",
+    "cheerio": "1.0.0-rc.12",
     "disqus-react": "^1.1.5",
     "gatsby": "^4.25.7",
     "gatsby-link": "^4.25.0",
@@ -146,6 +147,6 @@
     "typescript": "^5.1.6"
   },
   "engines": {
-    "node": ">=18"
+    "node": "^16 || ^18"
   }
 }
