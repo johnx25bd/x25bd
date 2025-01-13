@@ -18,18 +18,20 @@ Earlier this year, I read [The Age of AI](https://www.hachettebookgroup.com/titl
 <blockquote>
 ... we are entering a new epoch in which the reasoning human mind is yielding its pride of place as the sole discoverer, knower and cataloger of the world's phenomena.
 </blockquote>
-<center><strong>Chapter 1, The Age of AI</strong></center>
+<p align="right"><em>Chapter 1, The Age of AI</em></p>
 
 
 While I see AI more as an advanced form of reason, with more empirical evidence available for consideration, than an entirely new way of knowing, splitting hairs is unhelpful. Their insight — that AI forces us to confront the question of whether there are forms of reason inaccessible to the human mind — is both fascinating and important.
 
-I’ve worked with or adjacent to ML for many years, but I dedicated the past four years (i.e. 100 AI years) of my career to another emerging digital technology domain that has, in my view, a comparable potential to reshape how civilization works. Over time, though, I’ve come to view “Web3” as a social innovation, rather than a technological one. Web3 systems — especially smart contracts —  don't offer any new functionality. But they do shift the way we form digitally-intermediated trust relationships in subtle-yet-profound ways. (More on this in a future post.) 
+I’ve been working with AI and data-driven technologies since 2009 — my first exposure was with convolutional neural networks in a remote sensing course as an undergraduate. Over the years, my career has woven through roles in data engineering and machine learning, including projects estimating the economic impact of maritime piracy on global shipping and applying advanced clustering techniques for geospatial insights during my MSc. These experiences have given me a strong foundation in building and deploying data-intensive systems that solve real-world problems.
 
-On the other hand, every month AI systems present astounding advancements in what we thought computers were capable of, and even skeptical outlooks concede that major leaps forward in the capabilities of AI systems are expected in the coming years.
+In recent years, my focus shifted to Web3, exploring how decentralized technologies can reshape digitally-intermediated trust. Over time, though, I’ve come to view “Web3” as a social innovation, rather than a technological one. Web3 systems — especially smart contracts —  don't offer any new computing functionality. But they do shift the way we form digitally-intermediated trust relationships in subtle-yet-profound ways. (More on this in a future post.) 
+
+On the other hand, every month AI systems present astounding advancements in what we thought computers were capable of, and even skeptical outlooks concede that major leaps forward in the capabilities of AI systems are expected in the coming years. 
 
 ## Learning how to learn
 
-So, to get up to speed, over the last eight weeks, I participated in an immersive coding program — **Deep Learning System Design** with the [Machine Learning Institute](https://ml.institute/) (MLX) in London. MLX offers a hands-on training experience aimed at experienced software engineers designed to bridge theory and real-world application. Rather than focusing solely on lecture-based instruction, this bootcamp introduced new concepts through peer learning-driven, practical, end-to-end projects. From working with word embeddings for language tasks to experimenting with transformer architectures, every module emphasized coding, iteration, exploration and deployment.
+So, to get up to speed on recent advancements and sharpen up my skills, over the last eight weeks I participated in an immersive coding fellowship — **Deep Learning System Design** with the [Machine Learning Institute](https://ml.institute/) (MLX) in London. MLX offers a hands-on training experience aimed at experienced software engineers designed to bridge theory and real-world application. Rather than focusing solely on lecture-based instruction, this bootcamp introduced new concepts through peer learning-driven, practical, end-to-end projects. From working with word embeddings for language tasks to experimenting with transformer architectures, every module emphasized coding, iteration, exploration and deployment.
 
 During this intensive period, we moved through a series of time-constrained practical challenges. Some weeks focused on structuring neural networks for language understanding, while others took us into the realm of semantic search or image captioning with transformers. Each project was grounded in reproducible MLOps workflows, modern tooling for experiment tracking, and scalable deployment architectures. By the end, I had touched on all parts of the machine learning pipeline — from data ingestion and preprocessing to model deployment on containerized platforms.
 
@@ -47,7 +49,7 @@ While the program offered a strong technical foundation, there were areas I beli
 
 > [AI] is a human creation, reflecting human-designed processes on human-created machines.
 
-<center><strong>Chapter 7, The Age of AI</strong></center>
+<p align="right"><em>Chapter 7, The Age of AI</em></p>
 
 Thanks in no small part to MLX, I’m one of the humans who can now help create this technology. Incorporating more opportunities for critical reflection into the curriculum wouldn’t have diminished the technical rigor — it would have enriched it, ensuring that as we shape these technologies, we remain mindful of the human context they serve.
 
