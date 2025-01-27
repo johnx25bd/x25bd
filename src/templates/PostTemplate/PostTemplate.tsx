@@ -34,6 +34,7 @@ export const query = graphql`
         description
         tags
         title
+        socialImage
       }
     }
   }
@@ -51,7 +52,7 @@ export const Head: React.FC<Props> = ({ data }) => {
   } = data.markdownRemark;
 
   const description = postDescription || subtitle;
-  const image = socialImage?.publicURL && url.concat(socialImage?.publicURL);
+  const image = socialImage ? new URL(socialImage, url).toString() : undefined;
 
   return (
     <Meta
