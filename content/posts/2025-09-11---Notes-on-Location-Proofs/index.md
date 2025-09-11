@@ -13,33 +13,31 @@ description: "An exploration of proof-of-location systems, their technical imple
 socialImage: "./media/dutch-boats.png"
 ---
 
-# **Notes on Location Proofs**
-
 For the past seven years, I’ve been returning again and again to a set of questions I can’t put out of my mind. In a nutshell: how can **geospatial technologies** be enhanced or improved by **Web3 tools and design principles**? And conversely, how can we integrate geospatial computing capabilities into decentralized systems like Ethereum and IPFS?
 
 Crypto isn’t my home turf. I’ve been working professionally with geospatial data for my entire career:
 
-2009 — satellite imagery analysis in my undergrad
+- 2009 — satellite imagery analysis in my undergrad
+- 2012 — co-founder at Junctions, a location-based app startup;
+- 2017 — geospatial data science of shipping patterns; 
+- 2019 — MSc in Spatial Data Science and Visualisation at UCL
+- 2021 — a formative spell at Ordnance Survey, the UK’s national mapping agency. 
 
-2012 — co-founder at Junctions, a location-based app startup;
+Ever since I discovered Ethereum in 2017, and came to recognize the importance of [Web3 design principles](https://www.x25bd.com/posts/web3-design-principles) — open, durable, and opt-in — I couldn’t help but wonder how geospatial data could fit into this new paradigm.
 
-2017 — geospatial data science of shipping patterns; 
-
-2019 — MSc in Spatial Data Science and Visualisation at UCL
-
-2021 — a formative spell at Ordnance Survey, the UK’s national mapping agency. 
-
-Ever since I discovered Ethereum in 2017, and came to recognize the importance of ****[Web3 design principles](https://www.x25bd.com/posts/web3-design-principles) — open, durable, and opt-in — I couldn’t help but wonder how geospatial data could fit into this new paradigm.
+---
 
 ### Motivation
 
-When I first delved into blockchains I was working as a geospatial data scientist / product developer at an international NGO studying peace and security issues, focused on maritime security. I wrote an internal memo about how North Korea evades international sanctions, exporting coal to foreign markets to fund their nuclear weapons program. I wasn’t surprised by the shell companies or reflagging schemes. What did surprise me was a technical tactic: ships would sail to a particular offshore location, switch off their AIS transceivers, steam into port, load up, then reappear on the map days later. (AIS is the [Automatic Identification System](https://shipping.nato.int/nsc/operations/news/2021/ais-automatic-identification-system-overview), mandated by the UN’s International Maritime Organization, requires commercial vessels to broadcast their identity and location for safety and monitoring.)
+When I first delved into blockchains I was working as a geospatial data scientist / product developer at an international NGO studying peace and security issues, focused on maritime security. I wrote an internal memo about how North Korea evades international sanctions, exporting coal to foreign markets to fund their nuclear weapons program. 
+
+I wasn’t surprised by the shell companies or reflagging schemes. What did surprise me was a technical tactic: ships would sail to a particular offshore location, switch off their AIS transceivers, steam into port, load up, then reappear on the map days later. (AIS is the [Automatic Identification System](https://shipping.nato.int/nsc/operations/news/2021/ais-automatic-identification-system-overview), mandated by the UN’s International Maritime Organization, requires commercial vessels to broadcast their identity and location for safety and monitoring.)
 
 I was a few months into crypto at that point, awash in buzzwords like “verifiability” and “censorship resistance.” Seeing how the ability to lie by omission was encoded into international shipping rules planted a seed: how could we do better than this? My masters at the Bartlett only reinforced my intuition: in a future of autonomous machines, strong and useful ways to represent *where* devices were in space would be important.
 
 ### Astral
 
-Over the years those seeds have germinated and sprouted into the project I now lead, [Astral](https://www.astral.global/). Since leaving [Toucan](https://toucan.earth/), a startup I co-founded to improve access and accountability in carbon markets (which depend heavily on geospatial data) using blockchains and smart contracts, I’ve been working on Astral and collaborating with a team led by Professor Taylor Oshan at the University of Maryland, laying the groundwork for a decentralized geospatial web aligned with Web3 design principles. In April, we published a [paper](https://osf.io/bg2uq_v1) outlining the three pillars we see needed for this technology ecosystem to emerge.
+Over the years those seeds have germinated and sprouted into the project I now lead, [Astral](https://www.astral.global/). Since leaving [Toucan](https://toucan.earth/), a startup I co-founded to improve access and accountability in carbon markets (which depend heavily on geospatial data) using blockchains and smart contracts, I’ve been working on Astral and collaborating with a team led by [Professor Taylor Oshan](https://geog.umd.edu/facultyprofile/oshan/taylor) at the University of Maryland, laying the groundwork for a decentralized geospatial web aligned with Web3 design principles. In April, we published a [paper](https://osf.io/bg2uq_v1) outlining the three pillars we see needed for this technology ecosystem to emerge.
 
 One pillar — perhaps the most important one — focuses on **proof-of-location systems**. This post outlines a lot of our thinking about how credible claims about *where things happen* can be made online — an environment where trust is being eroded and generative AI is forcing us to question what’s real. 
 
@@ -52,8 +50,6 @@ My aim here isn’t to provide all the answers — there are a lot of technical,
 Before we get to definitions, it helps to notice how common location verification already is in daily life. Websites infer location by IP address — many services block access to users from different locations based on this data. Mobile apps grab geographic coordinates from smartphone GPS chips. NFC key cards unlock access to gyms and office buildings. Border officers check people into countries.
 
 These are all ways of producing and assessing **location evidence** — practical mechanisms that give someone else some degree of confidence about where and when an event occurred.
-
----
 
 ## **Proof-of-Location Systems**
 
@@ -68,8 +64,6 @@ I use the term **proof-of-location system** to mean any system that produces loc
 - **Legal**: Formal attestations in affidavits, bills of lading, customs documents, contracts etc.
 
 This list is pragmatic, not exhaustive — the goal was to get a handle on how location is actually verified in practice.
-
----
 
 ## **From Systems to Proofs**
 
@@ -140,8 +134,6 @@ An in-depth defense of the need for this framework is beyond the scope of this p
 
 The intuition here — grounded in many conversations and interviews — is that a coherent framework for verifying location in digital systems would improve trust, reduce costs, and open new opportunities.
 
----
-
 ## **Why This Matters Now**
 
 Several converging trends make location proofs increasingly relevant:
@@ -171,8 +163,6 @@ Things I’m thinking about these days:
 - **Use cases.** Identity + authentication, blockchain intelligence, fraud + compliance, supply chain + logistics, consumer + social — all have different requirements for strength and usability.
 - **Durability, not perfection.** The goal isn’t absolute certainty. It’s making lying harder, and ensuring that verification is consistent and transparent.
 
----
-
 ## **Current Work**
 
 At the [University of Maryland](https://easierdata.org/), we’re cataloging existing verification strategies, developing frameworks for “stacked proofs,” and exploring privacy-preserving designs. This is ongoing, and we’re looking to speak with anyone who verifies location data for their company or use case.
@@ -180,8 +170,6 @@ At the [University of Maryland](https://easierdata.org/), we’re cataloging exi
 In addition to this current work, through our role leading the Open Geospatial Consortium’s Blockchain and DLT Working Group (Prof Oshan is co-chair), we’re working on the [**Location Protocol](https://easierdata.org/updates/2025/2025-05-19-location-protocol-spec).** It’s a standardized schema for structuring, signing, and transporting location data — and a carrier for location proofs. I think of it as the envelope, not the evidence itself. It ensures verifiability, consistency, portability, and compatibility across systems.
 
 The Location Protocol doesn’t replace commonly-used location data formats like existing formats like GeoJSON, GPX, GeoTIFF, etc. It complements them by wrapping these artifacts in standardized metadata required to interpret them, and by adding digital signatures. This makes location data portable, verifiable, and usable across decentralized and traditional systems alike. The reference implementation of the Location Protocol is built on the [Ethereum Attestation Service](https://attest.org/).
-
----
 
 ## **Future Directions**
 
