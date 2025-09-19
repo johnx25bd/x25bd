@@ -15,6 +15,9 @@ socialImage: "./media/dutch-boats.png"
 
 For the past seven years, I’ve been returning again and again to a set of questions I can’t put out of my mind. In a nutshell: how can **geospatial technologies** be enhanced or improved by **Web3 tools and design principles**? And conversely, how can we integrate geospatial computing capabilities into decentralized systems like Ethereum and IPFS?
 
+
+> **Note:** The first section of this post will go over the background and motivation — if you're pressed for time, [jump ahead to Proof Of Location Systems](#proof-of-location-systems).
+
 Crypto isn’t my home turf. I’ve been working professionally with geospatial data for my entire career:
 
 - 2009 — satellite imagery analysis in my undergrad
@@ -41,7 +44,7 @@ Over the years those seeds have germinated and sprouted into the project I now l
 
 One pillar — perhaps the most important one — focuses on **proof-of-location systems**. This post outlines a lot of our thinking about how credible claims about *where things happen* can be made online — an environment where trust is being eroded and generative AI is forcing us to question what’s real. 
 
-My aim here isn’t to provide all the answers — there are a lot of technical, social, regulatory, and commercial specifics that remain unexplored. Instead, I hope to sketch the contours of a field that feels increasingly important, to articulate my thinking and prompt discussion.
+My aim here isn't to provide all the answers — there are a lot of technical, social, regulatory, and commercial specifics that remain unexplored. Instead, I hope to sketch the contours of a field that feels increasingly important, to articulate my thinking and prompt discussion.
 
 ---
 
@@ -142,7 +145,7 @@ Several converging trends make location proofs increasingly relevant:
 2. **Web2 messiness.** In today’s Web2 environment, location is enforced through a mishmash of techniques: GeoIP lookups, GPS coordinates, billing addresses, app permissions, SLAs. These are inconsistent, hard to audit, and rarely portable across systems. A unified framework for signed location evidence could cut down on redundant checks and provide clearer audit trails.
 3. **Regulation and compliance.** Many regulatory questions boil down to “where.” Data residency laws, KYC/AML requirements, and sanctions enforcement all depend on location. Current practice often relies on contracts and manual audits. Structured, portable proofs could lower overhead while improving auditability.
 4. **Rising risk of misrepresentation.** Ships going dark on AIS. GPS spoofing. Deepfakes and AI-generated media. The cost of lying about where and when something happened has never been lower. Stronger, independently verifiable evidence raises the bar.
-5. [**Splinternet](https://www.economist.com/business/2025/09/04/what-the-splinternet-means-for-big-tech) pressures.** The internet is global in theory, but it’s governed locally. This is increasingly visible as different jurisdictions assert control: GDPR in Europe, MiCA for digital assets, national-level data residency rules. Multi-jurisdiction blockchain deployments make this especially acute. A consistent framework for verifiable location data would simplify compliance — especially as physical jurisdictions form [different rules governing AI systems](https://www.nytimes.com/2025/09/02/opinion/ai-us-china.html). 
+5. **[Splinternet](https://www.economist.com/business/2025/09/04/what-the-splinternet-means-for-big-tech) pressures.** The internet is global in theory, but it's governed locally. This is increasingly visible as different jurisdictions assert control: GDPR in Europe, MiCA for digital assets, national-level data residency rules. Multi-jurisdiction blockchain deployments make this especially acute. A consistent framework for verifiable location data would simplify compliance — especially as physical jurisdictions form [different rules governing AI systems](https://www.nytimes.com/2025/09/02/opinion/ai-us-china.html). 
 
 ---
 
