@@ -56,7 +56,9 @@ These are all ways of producing and assessing **location evidence** — practica
 
 ## **Proof-of-Location Systems**
 
-I use the term **proof-of-location system** to mean any system that produces location evidence. Our initial research identified seven broad categories of sources of location evidence:
+I use the term **proof-of-location system** to mean any system that produces evidence that supports a location claim. A location claim is a spatially referenced assertion about the position and, optionally, timing of anything – a person, device, asset, area, or event. 
+
+Our initial research identified seven broad categories of sources of location evidence:
 
 - **Authority**: Verified by a trusted person or institution (passport control, event admission).
 - **Social**: Peers mutually verify presence (digital check-ins, vouching).
