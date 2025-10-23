@@ -9,15 +9,19 @@ socialImage: "/notebook.jpg"
   <img src="./ben-nevis.jpg" alt="John on Ben Nevis" />
 </figure>
 
-Hello - I'm John. I am helping build a brighter future for humanity. 
 
-My work is focused on how we can use emerging technologies to improve measures of planetary stewardship and human dignity. I'm a data scientist, entrepreneur, researcher and community builder. I hold an MSc in Spatial Data Science and Visualisation from UCL, where I graduated with distinction.
+Hi — I'm John. I am a researcher, entrepreneur and investor helping build a brighter future.
 
-For the past five years I've been focused on building tools to coordinate our response to the climate crisis through my work as co-founder at [Toucan](https://toucan.earth), and more recently at [Astral](https://docs.astral.global/docs/introduction). In the past I've dedicated effort to preventing human conflict, improving our understanding of the world using geospatial data, strengthening a community working to build a better Internet, teaching young technologists how to create thoughtfully, and helping people experience the world's natural and cultural beauty.
+My work is focused on how we can use emerging technologies to improve measures of planetary stewardship and human dignity. Currently, I'm working on decentralized geospatial systems:
 
-- Read about what I'm thinking and learning: [Observations→](/observations)
-- See what services I offer: [Consulting→](https://x25bd.notion.site/Service-Offering-105a6d7db079433ab9a51829663a1257)
-- Learn more about my work: [LinkedIn→](https://www.linkedin.com/in/johnx25bd/)
-- Reach out: [Contact→](/pages/contact)
+- I am building [Astral](https://astral.global/), the trust layer for location data — infrastructure that makes geospatial information verifiable and usable across blockchains and the web.
+- I am a Research Affiliate at the [University of Maryland](https://decentralizedgeo.org/), doing R+D on location proofs and other decentralized geospatial web technologies.
+- I also consult, invest and advise startups in climate, Web3, AI, geospatial, and other sectors via [Sophia Systems](https://sophiasystems.io/) and The Applewood Group.
 
-While I'm offline I love exploring the world by bike, snowboard and sailboat.
+Over the years I've been involved in a meandering range of projects — from setting up onchain carbon markets at [Toucan](https://toucan.earth/), to studying maritime security as a geospatial data scientist at an [international NGO](https://www.stableseas.org/), to leading developer ecosystem growth at [Ordnance Survey](https://www.ordnancesurvey.co.uk/), the UK's national mapping agency. I hold an MSc in Spatial Data Science and Visualisation from UCL with Distinction. It's ancient history at this point, but in a prior era I was a ski patroller with the NSP, an active travel guide with Backroads, and a cliff diver at Casa Bonita ...  
+
+- Read about what I’m thinking and learning: [Observations→](https://www.x25bd.com/observations)
+- Learn more about my background: [LinkedIn→](https://www.linkedin.com/in/johnx25bd/)
+- Reach out: [Contact→](https://www.x25bd.com/pages/contact)
+
+Along with my work, I love sailing downwind, snowboarding in powder, and unhurried departures. I'm from Denver, and based in north London.
