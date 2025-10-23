@@ -3,6 +3,7 @@ title: "Bezos and Starmer: a few thoughts on the UK's AI strategy"
 date: "2025-01-27T12:00:00.000Z"
 template: "post"
 draft: false
+unlisted: true
 slug: "/posts/bezos-and-starmer-uk-ai-strategy"
 socialImage: "./media/amazon.jpg"
 category: "AI"
