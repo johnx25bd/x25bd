@@ -14,7 +14,7 @@ type CreateWithPagination = (parameters: {
 }) => void;
 
 const getPaginationPath = (basePath: string, page: number): string =>
-  [basePath === "/observations" ? "" : basePath, "page", page].join("/");
+  [basePath, "page", page].join("/");
 
 const createPages: GatsbyNode["createPages"] = async ({ graphql, actions }) => {
   const { createPage, createRedirect } = actions;

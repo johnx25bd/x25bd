@@ -16,7 +16,7 @@ socialImage: "./media/dutch-boats.png"
 For the past seven years, I’ve been returning again and again to a set of questions I can’t put out of my mind. In a nutshell: how can **geospatial technologies** be enhanced or improved by **Web3 tools and design principles**? And conversely, how can we integrate geospatial computing capabilities into decentralized systems like Ethereum and IPFS?
 
 
-> **Note:** The first section of this post will go over the background and motivation — if you're pressed for time, [jump ahead to Proof Of Location Systems](#proof-of-location-systems).
+> **Note:** The first section of this post will go over the background and motivation — if you're pressed for time, [jump ahead to Proof-of-Location Systems](#proof-of-location-systems).
 
 Crypto isn’t my home turf. I’ve been working professionally with geospatial data for my entire career:
 
