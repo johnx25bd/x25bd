@@ -34,7 +34,9 @@ export const query = graphql`
         description
         tags
         title
-        socialImage
+        socialImage {
+          publicURL
+        }
       }
     }
   }
